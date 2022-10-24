@@ -12,7 +12,7 @@ void main() async {
 
   // Get any initial links
   final PendingDynamicLinkData? initialLink = await FirebaseDynamicLinks.instance.getInitialLink();
-// 123
+// 12345
   runApp(const MyApp());
 }
 
